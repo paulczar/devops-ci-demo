@@ -1,0 +1,3 @@
+alias up="docker-compose up --force-recreate app"
+alias test="docker-compose run --rm app ./test"
+alias build="docker-compose build"
