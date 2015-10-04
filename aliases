@@ -1,3 +1,3 @@
 alias up="docker-compose up --force-recreate app"
-alias test="docker-compose run --rm app ./test"
+alias test="docker run -ti --entrypoint='sh' --rm test /app/test"
 alias build="docker-compose build"
