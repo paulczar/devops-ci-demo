@@ -14,10 +14,6 @@ Run Unit tests with this command:
 $ docker-compose run --rm app ./test
 ```
 
-
-
-
-
 # Infrastructure
 
 ## DEIS
